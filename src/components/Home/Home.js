@@ -6,7 +6,6 @@ import InputBox from "../InputBox/InputBox";
 import Header from "../Header/Header";
 
 import { initialData } from "../../data";
-import "./Home.css";
 
 const Home = () => {
   const initialValues = {
@@ -165,6 +164,15 @@ const Home = () => {
           />
         ))}
       </div>
+
+      {data.currentParcel?.length ? (
+        <div className="parcel__selected">
+          Selected Parcel:
+          <span>{data.currentParcel}</span>
+        </div>
+      ) : (
+        ""
+      )}
 
       <InputBox data={data} handleChange={handleChange} />
 
