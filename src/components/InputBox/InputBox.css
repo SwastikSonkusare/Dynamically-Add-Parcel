@@ -7,7 +7,7 @@
 .show-input > div:first-child {
     width: 30rem;
     margin-top: 3rem;
-    padding: 3rem 2rem;
+    padding: 2.7rem 3rem;
     border: 2px solid #535C6C;
 }
 
@@ -34,7 +34,7 @@
 }
 
 
-.show-input__container input:focus-visible {
+.show-input__container input:focus-visible, .show-input__container select:focus-visible {
     border: none;
     outline: none;
 }
@@ -79,28 +79,20 @@ select {
   }
 
 
-  
-  ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 2px;
-    height: 5px;
+    height: 6px;
 }
+::-webkit-scrollbar-thumb {
+    background-color: #6D9EEC;
+    border-radius: 10px;
+  }
 
 ::-webkit-scrollbar-track {
       border-radius: 2rem;
-    background-color: #3C79D8;
+    border: 1px solid #3C79D8;
   }
 
-.red {
-    background: #F0155E;
-}
-
-.yellow {
-    background: #F1C232;
-}
-
-.blue {
-    background: #3C79D8;
-}
 
 @media only screen and (max-width: 50em) {
     .show-input {

@@ -35,12 +35,14 @@ const InputBox = ({ data, handleChange }) => {
             <h4>Mumbai</h4>
             <span></span>
           </div>
-          <div>
-            <h4>Delhi</h4>
-            <span></span>
-          </div>
+
           <div>
             <h4>Kolkata</h4>
+            <span></span>
+          </div>
+
+          <div>
+            <h4>Delhi</h4>
             <span></span>
           </div>
         </div>

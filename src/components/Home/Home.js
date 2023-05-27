@@ -127,13 +127,13 @@ const Home = () => {
   return (
     <>
       <div className="header__container">
-        <Header headerWidth={headerWidth.Mumbai} color="red">
+        <Header headerWidth={headerWidth.Mumbai} color="#F0155E">
           Mumbai
         </Header>
-        <Header headerWidth={headerWidth.Delhi} color="yellow">
+        <Header headerWidth={headerWidth.Delhi} color="#F1C232">
           Delhi
         </Header>
-        <Header headerWidth={headerWidth.Kolkata} color="blue">
+        <Header headerWidth={headerWidth.Kolkata} color="#3C79D8">
           Kolkata
         </Header>
       </div>
@@ -142,7 +142,7 @@ const Home = () => {
           <Parcels
             data={data}
             parcel={parcel}
-            color="red"
+            color="#F0155E"
             handleCurrentParcel={handleCurrentParcel}
           />
         ))}
@@ -151,7 +151,7 @@ const Home = () => {
           <Parcels
             data={data}
             parcel={parcel}
-            color="yellow"
+            color="#F1C232"
             handleCurrentParcel={handleCurrentParcel}
           />
         ))}
@@ -160,7 +160,7 @@ const Home = () => {
           <Parcels
             data={data}
             parcel={parcel}
-            color="blue"
+            color="#3C79D8"
             handleCurrentParcel={handleCurrentParcel}
           />
         ))}
