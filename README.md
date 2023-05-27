@@ -1,14 +1,12 @@
 # Dynamically Add Parcels
 
-[Live Site](https://spacexdemox.netlify.app/ "SpaceX")
+[Live Site](https://dynamic-parcel.netlify.app/, "Dynamically Add Parcel")
 
-![Image 1](https://user-images.githubusercontent.com/59872341/227427117-bf2587d5-1402-4057-9bfe-44c4fa958fa1.png)
-
-![Image 2](https://user-images.githubusercontent.com/59872341/227427169-55f42294-7c39-4cf9-b549-628b7835a57b.png)
+![Image 1](https://user-images.githubusercontent.com/59872341/241385299-84468b62-eef2-42a9-8521-07b9bc6e0ee1.png)
 
 # Introduction
 
-This is a simple landing page of [SpaceX](https://www.spacex.com/).
+This is a simple page which allows users to create, replace or even delete a parcel from any location.
 It is build using html, css, javascript, react.
 
 ### Setup to install the dependencies and to start the development server.
