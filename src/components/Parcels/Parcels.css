@@ -1,0 +1,41 @@
+.parcel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    overflow-x: scroll;
+
+}
+
+
+.parcel__container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0.7rem;
+    gap: 0.7rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.parcel__container:not(:first-child), .parcel__container:not(:last-child) {
+    padding: 0;
+}
+
+.parcel__container div:last-child {
+    color: #D7D6D6;
+
+}
+
+.parcel__container div:first-child {
+    padding: 0.7rem 3rem;
+}
+
+.parcel__container.active {
+    border: 2px dashed #535C6C;
+}
+
+
+
+

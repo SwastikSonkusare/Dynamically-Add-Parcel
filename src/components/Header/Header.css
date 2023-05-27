@@ -1,0 +1,16 @@
+.header__container {
+    max-width: 90rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto 2rem auto;
+    text-align: center;
+    overflow-x: scroll;
+}
+
+.header__container {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+}
+.header__container::-webkit-scrollbar { 
+    display: none;  
+}
